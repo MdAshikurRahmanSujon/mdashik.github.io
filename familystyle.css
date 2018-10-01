@@ -1,0 +1,150 @@
+*{margin:0;padding:0}
+body{
+	background-color:#F6DA6C;
+}
+.main_wrapper{
+	width:100%;
+}
+.wrapper{
+	width:960px;
+	margin:0 auto;
+	border-left:2px solid #3030ad;
+	border-right:2px solid #3030ad;
+}
+.header_bg{
+	background-color:#3e3939;
+	border-bottom:5px solid #3030ad;
+	border-top:5px solid #3030ad;
+}
+#header{
+	background-color:#3e3939;
+	padding:18px;
+	font-family:georgia;
+}
+#header h2{
+	color:#fff;
+}
+#header p{
+	margin-top:4px;
+	color:#a1a1f7;
+}
+#header p abbr{
+	text-decoration:none;
+}
+.nav_bg{
+	background-color:#4E4E4E;
+	border-bottom:5px solid #3030ad;
+}
+#nav{
+	background-color:#4E4E4E;
+	height:38.2px;
+
+}
+#nav ul{
+	background-color:#4E4E4E;
+	list-style-type:none;
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid #605B5B;
+	border-left:1px solid #2B2A2A;
+}
+#nav ul li:last-child{
+	border-right:none;
+}
+#nav ul li:first-child{
+	border-left:none;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	padding:10px 30px;
+	font-family:arial;
+}
+#nav ul li a:hover{
+	background-color:blue;
+}
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;
+	left:-99999px;
+	z-index:500;
+}
+#nav ul li:hover ul{
+	left:0;
+}
+#nav ul li ul li{
+	float:none;
+	border-right:none;
+	border-left:none;
+	border-top:1px solid #605B5B;
+	border-bottom:1px solid #2B2A2A;
+	width:130px;	
+}
+#nav ul li ul #friends{
+		width:128px;
+}	
+.content_bg{
+	background-color:#846e6e;
+}
+#content_wrapper{
+	background-color:#846e6e;
+	margin:0 auto;
+	overflow:hidden;
+}
+#content{
+	width:480px;
+	height:433px;
+	float:left;
+}
+#content img{
+	width:420px;
+	margin:10px;
+	display:block;
+}
+#content figure{
+	width:440px;
+	margin:10px;
+	padding:10px;
+	background-color:#ddd;
+	box-shadow: 5px 5px 5px black;
+	-webkit-box-shadow: 5px 5px 5px black;
+	-moz-box-shadow: 5px 5px 5px black;
+	border-radius:10px;
+}
+#content figure figcaption{
+	text-align:center;
+	color:#5555dc;
+	font-family:arial;
+	font-weight:bold;
+}
+#content div{
+	width:480px;
+	padding:5px 10px;
+}
+#content div  p{
+	text-align:justify;
+	font-family:georgia;
+	display:block;
+	margin-right:20px;
+	color:#fff;
+}
+.footer_bg{
+	background-color:#3e3939;
+}
+#footer{
+	background-color:#3e3939;
+	padding:10px;
+	text-align:center;
+}
+#footer p{
+	color:#fff;
+	font-family:Times new Roman;
+}
+
+.theme-dark.slider-wrapper{
+	background:#3e3939;
+}
